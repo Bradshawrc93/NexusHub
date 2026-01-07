@@ -15,11 +15,11 @@ export default function Navbar() {
       <header className="sticky top-0 z-50 glass-panel border-b-0 border-b-white/5">
         <div className="nexus-container flex h-full flex-col">
           <div className="flex items-center justify-between whitespace-nowrap py-4">
-            <div className="flex items-center gap-3">
-              <div className="size-8 rounded-lg bg-primary/20 flex items-center justify-center text-primary">
-                <span className="material-symbols-outlined">dataset</span>
+            <div className="nexus-nav-brand">
+              <div className="nexus-nav-icon">
+                <span className="material-symbols-outlined text-[20px]">dataset</span>
               </div>
-              <h2 className="text-white text-xl font-display font-bold tracking-tight">Cody Bradshaw</h2>
+              <span className="text-white">Cody Bradshaw</span>
             </div>
             
             {/* Hamburger Trigger - Visible on all screens now as requested */}

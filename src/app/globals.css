@@ -7,8 +7,4 @@
   --font-body: var(--font-body);
 }
 
-/* Force dark mode background by default for this design */
-body {
-  background-color: var(--color-background-dark);
-  color: white;
-}
+/* Base styles are now handled by nexus-tailwind-preset */
