@@ -1,45 +1,14 @@
 @import "tailwindcss";
 
-@theme {
-  --color-primary: #00bad6;
-  --color-secondary-accent: #F03A70;
-  --color-background-light: #f5f8f8;
-  --color-background-dark: #0f1115;
-  --color-surface-dark: #1E2125;
-  --color-text-muted: #929DA8;
+@config "../../tailwind.config.ts";
 
+@theme {
   --font-display: var(--font-display);
   --font-body: var(--font-body);
-
-  --shadow-glow: 0 0 20px -5px rgba(0, 186, 214, 0.3);
-  --shadow-glow-hover: 0 0 25px -5px rgba(0, 186, 214, 0.5);
-
-  @keyframes fade-in-up {
-    from { opacity: 0; transform: translateY(10px); }
-    to { opacity: 1; transform: translateY(0); }
-  }
-  --animate-fade-in-up: fade-in-up 0.5s ease-out forwards 1s;
 }
 
 /* Force dark mode background by default for this design */
 body {
   background-color: var(--color-background-dark);
   color: white;
-}
-
-@layer utilities {
-  .glass-panel {
-    @apply bg-[rgba(30,33,37,0.7)] border border-white/10 backdrop-blur-md;
-  }
-
-  .tech-grid-bg {
-    background-size: 40px 40px;
-    background-image:
-      linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
-      linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
-  }
-
-  .chart-gradient {
-    fill: url(#gradient);
-  }
 }
