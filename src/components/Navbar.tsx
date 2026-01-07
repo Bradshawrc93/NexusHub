@@ -73,7 +73,7 @@ export default function Navbar() {
             </Link>
 
             <Link 
-              href="https://linkedin.com" 
+              href="https://www.linkedin.com/in/cody-bradshaw-41965017b/" 
               target="_blank"
               className="flex items-center gap-4 text-text-muted hover:text-primary transition-colors text-lg font-medium group"
               onClick={toggleMenu}
@@ -83,7 +83,7 @@ export default function Navbar() {
             </Link>
 
             <Link 
-              href="https://github.com" 
+              href="https://github.com/Bradshawrc93" 
               target="_blank"
               className="flex items-center gap-4 text-text-muted hover:text-primary transition-colors text-lg font-medium group"
               onClick={toggleMenu}

@@ -35,14 +35,14 @@ export default function Hero() {
             <div className="flex gap-3">
               <Link 
                 className="w-11 h-11 rounded-lg bg-surface-dark border border-white/10 flex items-center justify-center text-text-muted hover:text-white hover:bg-white/5 transition-colors" 
-                href="https://github.com"
+                href="https://github.com/Bradshawrc93"
                 target="_blank"
               >
                 <FaGithub className="text-xl" />
               </Link>
               <Link 
                 className="w-11 h-11 rounded-lg bg-surface-dark border border-white/10 flex items-center justify-center text-text-muted hover:text-white hover:bg-white/5 transition-colors" 
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/cody-bradshaw-41965017b/"
                 target="_blank"
               >
                 <FaLinkedin className="text-xl" />
