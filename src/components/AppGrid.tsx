@@ -2,7 +2,7 @@ import { projects } from '@/config/projects';
 
 export default function AppGrid() {
   return (
-    <section className="w-full max-w-[1000px] px-6 py-12" id="apps">
+    <section className="nexus-container py-12" id="apps">
       <div className="flex items-center justify-between mb-8">
         <h2 className="text-white text-2xl font-display font-bold tracking-tight">Application Showcase</h2>
         <div className="h-[1px] flex-1 bg-white/10 ml-6"></div>

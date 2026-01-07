@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 export default function Hero() {
   return (
-    <section className="w-full max-w-[1000px] px-6 py-16 md:py-24" id="about">
+    <section className="nexus-container py-16 md:py-24" id="about">
       <div className="flex flex-col gap-10 items-center">
         {/* Avatar with Glow */}
         <div className="relative shrink-0">

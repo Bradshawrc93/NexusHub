@@ -34,7 +34,7 @@ export default function Metrics() {
   }, []);
 
   return (
-    <section className="w-full max-w-[1000px] px-6 py-12 pb-24" id="metrics">
+    <section className="nexus-container py-12 pb-24" id="metrics">
       <div className="flex items-center justify-between mb-8">
         <h2 className="text-white text-2xl font-display font-bold tracking-tight">System Metrics &amp; Costs</h2>
         <div className="flex gap-2">
