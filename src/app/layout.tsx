@@ -31,7 +31,7 @@ export default function RootLayout({
         />
       </head>
       <body
-        className={`${spaceGrotesk.variable} ${manrope.variable} antialiased bg-background-dark text-white font-body selection:bg-primary selection:text-background-dark overflow-x-hidden`}
+        className={`${spaceGrotesk.variable} ${manrope.variable} selection:bg-primary selection:text-background-dark overflow-x-hidden`}
       >
         {children}
       </body>
