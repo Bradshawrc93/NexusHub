@@ -21,7 +21,7 @@ export default function Hero() {
               Turning Operational Complexity into <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-blue-400">Executive Clarity</span>.
             </h1>
             <h2 className="text-base md:text-lg text-primary/90 font-medium font-display pt-2">
-              Sr. Manager, Product Ops • Strategic Delivery • Resourceful AI Engineer Enthusiast
+              Sr. Manager, Product Ops • AI Engineer Enthusiast
             </h2>
             <p className="text-text-muted text-base font-body leading-relaxed max-w-xl mx-auto pt-2">
               From Pre-Seed to Series B acquisition, I’ve led 75+ person global teams and managed $15M+ in ARR. I specialize in the "Architecture of Delivery"—designing the high-leverage systems and intelligent workflows that turn fragmented organizational data into high-fidelity strategic signals. I’m a leader by trade, but an AI-augmented tinkerer by choice, building the tools that help organizations move faster and smarter.
